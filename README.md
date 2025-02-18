@@ -63,7 +63,7 @@ Clona el repositorio o descarga el código fuente del proyecto.
 
 bash
 Copy
-git clone [URL del repositorio]
+git clone https://github.com/chebetoa7/PruebaNeta/tree/master/pruebaExamen
 Abre el proyecto en Visual Studio 2022.
 
 Selecciona el entorno de ejecución deseado (Android, iOS, Windows, etc.) en la barra de herramientas de Visual Studio.
