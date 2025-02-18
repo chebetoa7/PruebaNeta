@@ -74,6 +74,7 @@ Compila y ejecuta el proyecto presionando F5 o haciendo clic en el botón Inicia
 La aplicación se abrirá en el emulador o dispositivo seleccionado, mostrando la lista de usuarios.
 
 
+![Captura de pantalla 2025-02-18 155844](https://github.com/user-attachments/assets/0be4ed03-ad14-4414-8205-036bf2826cf3)
 
 
 
