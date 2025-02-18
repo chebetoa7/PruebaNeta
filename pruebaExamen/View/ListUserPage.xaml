@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pruebaExamen.View.ListUserPage"
+             Title="Lista usuarios">
+    <ScrollView BackgroundColor="Transparent">
+        <CollectionView ItemsSource="{Binding Users}" 
+                        SelectionMode="Single" 
+                        SelectedItem="{Binding SelectedUser, Mode=TwoWay}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border StrokeShape="RoundRectangle 10"
+                            HeightRequest="80"
+                            ClassId="{Binding id}"
+                            Margin="10,0,10,0">
+                        <HorizontalStackLayout VerticalOptions="Fill"
+                                                 HorizontalOptions="Fill"
+                                                 BackgroundColor="Transparent">
+                            <Border VerticalOptions="Fill"
+                                    WidthRequest="15"
+                                    Margin="-2,0,0,0"
+                                    BackgroundColor="Transparent">
+                            </Border>
+                            <VerticalStackLayout Margin="10,7,0,0"
+                                                 HorizontalOptions="Fill"
+                                                 BackgroundColor="Transparent">
+                                <Label Text="{Binding name}"
+                                       FontSize="15"
+                                       FontAttributes="Bold"
+                                       TextColor="LightCoral"/>
+                                <Label Text="{Binding email}"
+                                       FontSize="13"
+                                       Margin="0,8,0,0"
+                                       FontAttributes="Bold"/>
+                            </VerticalStackLayout>
+                            <Label Text=" > "
+                                   FontSize="20"
+                                   VerticalOptions="Center"
+                                   HorizontalTextAlignment="Center"
+                                   FontAttributes="Bold"
+                                   BackgroundColor="Transparent"
+                                   Margin="5,-10,0,0"></Label>
+                        </HorizontalStackLayout>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Border.GestureRecognizers>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ScrollView>
+</ContentPage>
