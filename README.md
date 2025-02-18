@@ -76,5 +76,7 @@ La aplicación se abrirá en el emulador o dispositivo seleccionado, mostrando l
 
 ![Captura de pantalla 2025-02-18 155844](https://github.com/user-attachments/assets/0be4ed03-ad14-4414-8205-036bf2826cf3)
 
+![Captura de pantalla 2025-02-18 161412](https://github.com/user-attachments/assets/058dc87c-43d0-400c-9192-86cc57908f82)
 
+![Captura de pantalla 2025-02-18 161457](https://github.com/user-attachments/assets/f83c00dc-b6ed-46f9-8a46-4d96e7be319e)
 
